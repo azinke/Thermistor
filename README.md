@@ -1,7 +1,8 @@
 # Thermistor
 Negative Temperature Coeficient Thermistor
 
-The current library is build based on a  with the following characteristics: 
+The current library is build based on an NTC thermistor with the following 
+characteristics: 
 
 - Stainless steel sheath and waterproof
 - Measurement range: -20 to 105 °C
@@ -18,6 +19,10 @@ The current library is build based on a  with the following characteristics:
 - Peak Voltage sustain time: 2 seconds, AC1800V 1mA 2 seconds
 - Stress sustain: 9.8N (1kgF) for 1 minute no deformation
 
+However, the library can be used for different NTC thermistor. It is just 
+required to set the `B` parameter and the reference temperature of the sensor 
+correctly.
+
 # Docs
 
 Some usefull data are available in the docs folder of the current repos.
@@ -33,6 +38,8 @@ celcius (`°C`)
 - `void setB(float value)`: used to set the `B` parameter of the NTC sensor
 - `void setADCReferenceVoltage(float value)`: to set the ADC Vref config. By 
 default, Vref is set to `5.0V`.
+- `void setReferenceTemperature(float value)`: set the reference temperature of 
+the sensor
 
 ``` 
     // unit definitions
