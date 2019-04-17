@@ -60,6 +60,6 @@ void Thermistor::setReferenceTemperature(float value){
  * @param value: new value for vref
  * @return: none
  */
-void Thermistor::setADCReferenceVolatge(float value){
+void Thermistor::setADCReferenceVoltage(float value){
     _vref = value;
 }
