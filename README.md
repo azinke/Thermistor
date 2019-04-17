@@ -32,6 +32,8 @@ Some useful data are available in the docs folder of the current repos.
 The usage of this library is showcase in the example folder. The main functions 
 availables are:
 
+- `Thermistor(uint8_t pin)`: constructor. The parameter `pin` is the number of 
+the analog pin the sensor is connected to.
 - `void read(uint8_t unit = DEG_C)`: to read a measurement from the sensor. If 
 no `unit` parameter provided, the temperature is returned by default in degre 
 celcius (`°C`)
