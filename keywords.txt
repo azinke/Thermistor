@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map Thermistor
+# by Kenneth AMOUSSOU
+# 	github: @azinke
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Thermistor		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+read	KEYWORD2
+setReferenceTemperature KEYWORD2
+setADCReferenceVoltage KEYWORD2
+setB KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DEG_C	LITERAL1	Constants
+DEG_K	LITERAL1	Constants
+DEG_F	LITERAL1	Constants
