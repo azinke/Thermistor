@@ -25,7 +25,7 @@ correctly.
 
 # Docs
 
-Some usefull data are available in the docs folder of the current repos.
+Some useful data are available in the docs folder of the current repos.
 
 # How to use it?
 
